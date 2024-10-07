@@ -44,7 +44,7 @@ class Tool(SiPage):
         self.setPadding(64)
         self.setScrollMaximumWidth(1000)
         self.setScrollAlignment(Qt.AlignLeft)
-        self.setTitle("控件")
+        self.setTitle("工具")
 
         # 创建控件组
         self.titled_widgets_group = SiTitledWidgetGroup(self)
